@@ -1,0 +1,45 @@
+JS 
+$('.simpleslide100').each(function(){
+        var delay = 7000;
+        var speed = 1000;
+        var itemSlide = $(this).find('.simpleslide100-item');
+        var nowSlide = 0;
+
+        $(itemSlide).hide();
+        $(itemSlide[nowSlide]).show();
+        nowSlide++;
+        if(nowSlide >= itemSlide.length) {nowSlide = 0;}
+
+        setInterval(function(){
+            $(itemSlide).fadeOut(speed);
+            $(itemSlide[nowSlide]).fadeIn(speed);
+            nowSlide++;
+            if(nowSlide >= itemSlide.length) {nowSlide = 0;}
+        },delay);
+    });
+CSS
+.simpleslide100 {
+  display: block;
+  position: fixed;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.simpleslide100-item {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+<div class="simpleslide100">
+		<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg1.jpg');"></div>
+		<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg3.jpg');"></div>
+		<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg4.jpg');"></div>
+		<div class="simpleslide100-item bg-img1" style="background-image: url('images/cta1.jpg');"></div>
+	</div>
+
