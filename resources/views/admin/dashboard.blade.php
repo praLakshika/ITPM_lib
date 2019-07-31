@@ -69,7 +69,7 @@
                       <!-- Wrapper for slides -->
                       <div class="carousel-inner">
                         <div class="item active">
-                          <img src="https://cdn-images-1.medium.com/max/1600/0*Ugp4QQOB6XvJwi-L" alt="Los Angeles" width="1800px" height="800px">
+                          <img src="https://www.yamu.lk/wp-content/uploads/2014/08/DSCF9401-600x400.jpg" alt="Los Angeles" width="1800px" height="800px">
                         </div>
                   
                         <div class="item">
