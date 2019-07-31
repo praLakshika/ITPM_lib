@@ -1,7 +1,6 @@
 Installation
 
-Install Composer using detailed installation instructions here
-Install Node.js using detailed installation instructions here
+Install Composer using detailed installation instructions her
 
 Clone repository
 
