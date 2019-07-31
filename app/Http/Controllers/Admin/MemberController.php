@@ -70,7 +70,7 @@ class MemberController extends Controller
             'birthday' => 'required|before:now|olderThan:18',
             'contact' => 'required|regex:/^([0-9\s\-\+\(\)]*)$/|min:10',
             'address' => 'required',
-            'mer_pic' => 'required|image|mimes:jpg,png'
+            'mer_pic' => 'required|image'
         ];
         
         $customMessages = [
